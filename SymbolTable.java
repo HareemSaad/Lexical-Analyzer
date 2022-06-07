@@ -68,7 +68,7 @@ public class SymbolTable {
             classPart = (String) cp.ht1.get(valuePart);
 
         }
-        // functions -> isordered -> any func is func // to confirm from miss
+        // functions -> isordered
         else if (classPart == "func") {
             if (completeSymbolTable.contains(valuePart)) { //check if its already inserted
                 tokenSet.add(SymbolTable.stNode.newNode(findKey(valuePart), valuePart));
@@ -110,7 +110,7 @@ public class SymbolTable {
             }
             classPart += id;
             id++;
-        } // keywords -> any keyword is keyword
+        } // keywords -> ordered
         else if (classPart == "keyword") {
             if (completeSymbolTable.contains(valuePart)) { //check if its already inserted
                 tokenSet.add(SymbolTable.stNode.newNode(findKey(valuePart), valuePart));
