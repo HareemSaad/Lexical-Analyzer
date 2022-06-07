@@ -137,6 +137,7 @@ public class SymbolTable {
 
     }
 
+    /*
     public static void main(String[] args) {
         ArrayList<String> tokenlList = new ArrayList<>();
         tokenlList.add("void");
@@ -159,12 +160,6 @@ public class SymbolTable {
 
         System.out.println(tokenSet);
     }
+    */
 }
-/*
- * for(int i = 0; i < 6; i++)
- * amaim, neha
- * id1 amaim
- * id2 neha
- * x = 1;
- * y = 1;
- */
+
